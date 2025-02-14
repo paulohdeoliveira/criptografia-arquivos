@@ -1,0 +1,7 @@
+### Criptografia Simétrica de Arquivos
+
+gpg --armor --symmetric --cipher-algo AES256 <arquivo.txt>
+
+### Descriptografia
+
+gpg -o <arquivo.txt> -d <arquivo.txt.asc>
