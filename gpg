@@ -2,6 +2,14 @@
 
 gpg --armor --symmetric --cipher-algo AES256 <arquivo.txt>
 
-### Descriptografia
+### Descriptografia Simétrica
 
 gpg -o <arquivo.txt> -d <arquivo.txt.asc>
+
+### Criptografia Assimétrica
+
+gpg -e -r key-id|name <arquivo.txt>
+
+### Descriptografia Assimétrica
+
+gpg -o <arquivo.txt> -d <arquivo.gpg>
