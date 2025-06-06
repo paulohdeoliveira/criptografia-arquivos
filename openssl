@@ -1,7 +1,0 @@
-### Criptografar Arquivo
-
-openssl enc -aes-256-cbc -salt -in <arquivo.txt> -out <arquivo.enc>
-
-### Descriptografar Arquivo
-
-openssl enc -d -aes-256-cbc -in <arquivo.enc> -out <arquivo.txt>
